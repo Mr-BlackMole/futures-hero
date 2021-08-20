@@ -3,8 +3,8 @@ from binance.client import Client
 from termcolor import colored
 
 # Get environment variables
-api_key     = os.environ.get('BINANCE_KEY')
-api_secret  = os.environ.get('BINANCE_SECRET')
+api_key     = 'KHsgJZ4zMMisAVajtOhMiY2f1agRRalROFyEG9dy1ll4STgzaAZ0TcC2vYPtIR1e'
+api_secret  = 'XuBeyjoQLGgzIcd5wXTwTynzCkzItvoxGBCRa94emqerb2zfKM8bdxEUSaHQOG0d'
 client      = Client(api_key, api_secret)
 live_trade  = config.live_trade
 
